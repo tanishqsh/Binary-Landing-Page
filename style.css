@@ -1,0 +1,225 @@
+/*
+From eCommerce websites to Business Portfolios, Directories and all types of markets. We serve you the best.
+*/
+html{
+    height:100%;
+    width:100%;
+}
+head{
+    margin:0;
+    padding:0;
+    float:left;
+}
+
+body{
+    margin:0;
+    padding:0;
+    float:left;
+    position: relative;
+    background-color: #ededed;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    float:left;
+    text-align: -webkit-center;
+}
+
+.three-divisions{
+    width:100%;
+    height:40%;
+    position: fixed;
+    float: left;
+    bottom:0;
+    background:#FFF;
+}
+
+.second-container{
+    width:25%;
+    height:100%;
+    float: left;
+    z-index: 10;
+    //border-right: 1px solid #FFF;
+    opacity: 0.85;
+    background: #4CAF50;
+    transition: opacity .6s, width .6s ease-in;
+}
+
+.third-container{
+    width:25%;
+    height:100%;
+    float: left;
+    z-index: 10;
+    //border-right: 1px solid #FFF;
+    opacity: 0.85;
+    background: #FF5252;
+    transition: opacity .6s, width .6s ease-in;
+}
+
+.fourth-container{
+    width:25%;
+    height:100%;
+    float: left;
+    //border-right: 1px solid #FFF;
+    z-index: 10;
+    opacity: 0.85;
+    background: #7B1FA2;
+    transition: opacity .6s, width .6s ease-in;
+}
+
+.fifth-container{
+    width:25%;
+    position: absolute;
+    right: 0;
+    height:100%;
+    float: left;
+    z-index: 10;
+    opacity: 0.85;
+    background: #3F51B5;
+    transition: opacity .6s, width .6s ease-in;
+}
+
+.second-container:hover{
+    width:25%;
+    height:100%;
+    opacity: 1;
+    transition: opacity .6s, width .6s ease-out;
+}
+
+.third-container:hover, .fourth-container:hover, .fifth-container:hover{
+    width:25%;
+    height:100%;
+    opacity: 1;
+    transition: opacity .6s, width .6s ease-out;
+}
+
+.header{
+    width:100%;
+    height:60%;
+    border-bottom: thick solid #FFF;
+    z-index: 100;
+    position:fixed;
+    background:#212121;
+    text-align: -webkit-center;
+}
+
+.twoheads{
+    width:100%;
+    height: 100%;
+    margin: auto;
+    z-index: 10000;
+    position: relative;
+}
+
+.headone{
+    width: 50%;
+    height:100%;
+    text-align: right;
+    color: #FFF;
+    float: left;
+}
+.headtwo{
+    width: 50%;
+    height:100%;
+    color: #FFF;
+    float: left;
+}
+
+.textzone{
+    margin-top: 100px;
+}
+
+.BinaryAlpha{
+    letter-spacing: 0.05em;
+    margin-right: -0.25em;
+    font-size: 5.5vw;
+    transition: font-size .1s;
+}
+.BinaryAlpha:hover{
+    color: #2196F3;
+    font-size: 7vw;
+    transition: font-size 1.5s, color 0.1s;
+}
+.BinaryTitle{
+    color: #FFF;
+    font-size: 5.5vw;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.BinarySubTitle{
+    color: #FFF;
+    font-size: 3.2vmin;
+    font-family: 'Roboto', 'sans-serif';
+    transition: font-size .5s;
+}
+
+li{
+    list-style-type: none;
+}
+.imageContainer{
+    width:25%;
+    margin-top: 100px;
+    border-radius: 50%;
+    border: 0.3vw solid #FFF;
+    transition: -webkit-box-shadow .4s, width .4s;
+    
+}
+
+.imageContainer:hover{
+    width:26%;
+    -webkit-box-shadow: 1px 1px 100px 10px rgba(33,150,243,0.31);
+    transition: -webkit-box-shadow .4s, width .4s;
+}
+
+.binaryfont{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.token-images{
+    margin-top: 20%;
+    width: 70px;
+    height: 70px;
+    color: #FFF;
+    transition: margin-top 0.5s, width .5s, height 0.5s;
+}
+
+.token-images:hover{
+    transform: rotateY(360deg);
+    transition: margin-top 0.5s, width .5s, height 0.5s, transform 2s;
+}
+
+
+.binary-primary-btn{
+    width:75%;
+    padding: 1.0vw;
+    background: #019012;
+    font-family: 'Roboto', 'sans-serif';
+    color: #FFF;
+    border: none;
+}
+
+.binary-secondary-btn{
+    width:75%;
+    padding: 1.0vw;
+    background: #FF0000;
+    font-family: 'Roboto', 'sans-serif';
+    color: #FFF;
+    border: none;
+}
+
+.binary-tertiary-btn{
+    width:75%;
+    padding: 1.0vw;
+    background: #9C27B0;
+    font-family: 'Roboto', 'sans-serif';
+    color: #FFF;
+    border: none;
+}
+
+.binary-primary-btn:hover, .binary-secondary-btn:hover, .binary-tertiary-btn:hover{
+    box-shadow: #FFF 0px 3px 10px;
+    transition: box-shadow .5s;
+}
+
